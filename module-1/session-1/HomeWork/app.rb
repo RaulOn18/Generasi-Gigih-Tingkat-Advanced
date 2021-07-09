@@ -10,9 +10,5 @@ loop do
   puts(khotun.to_s())
   puts(jin.attack(khotun))
   puts(khotun.attack(jin))
-  if jin.die? == true
-    break
-  elsif khotun.die? == true
-    break
-  end
+  break if jin.die? || khotun.die? == true
 end

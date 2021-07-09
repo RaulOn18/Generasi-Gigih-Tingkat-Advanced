@@ -16,6 +16,7 @@ class Hero
   def take_damage(damage)
     @hit_point -= damage
   end
+
   def die?
     if @hit_point <= 0
       puts "#{@name} dies."
