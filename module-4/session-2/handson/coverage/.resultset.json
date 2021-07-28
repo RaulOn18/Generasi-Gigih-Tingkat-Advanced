@@ -1,0 +1,26 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/raulon/Coding/Generasi-Gigih-Tingkat-Advanced/module-4/session-2/handson/app/integer_array_incrementer.rb": {
+        "lines": [
+          1,
+          1,
+          5,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1627478131
+  }
+}
