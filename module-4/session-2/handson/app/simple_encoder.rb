@@ -23,8 +23,6 @@ class SimpleEncoder
           new_ord = MIN_ORD + diff - 1
         end
         output << new_ord.chr
-      else
-        output << ''
       end
     end
     output
