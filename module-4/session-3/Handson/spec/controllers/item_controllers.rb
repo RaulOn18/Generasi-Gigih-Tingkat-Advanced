@@ -1,5 +1,5 @@
-require './config/enviroment'
-require './config/controllers/items_controller'
+require '../../config/enviroment'
+require '../../config/controllers/items_controller'
 
 describe ItemController do
   describe '#create' do

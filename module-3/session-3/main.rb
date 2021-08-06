@@ -1,5 +1,6 @@
+# require 'rubygems'
 require 'sinatra'
-require './controllers/order_controller.rb'
+require_relative './controller/order_controller'
 
 post '/order' do
   controller = OrderController.new

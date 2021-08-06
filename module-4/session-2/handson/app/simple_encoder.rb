@@ -1,9 +1,7 @@
 class SimpleEncoder
- 
   MAX_ORD = 'z'.ord
   MIN_ORD = 'a'.ord
   VOWEL_CHARS = ['a', 'i', 'u', 'e', 'o']
- 
   def encode(input)
     output = ''
     input.each_char do |character|
@@ -28,3 +26,4 @@ class SimpleEncoder
     output
   end
 end
+
