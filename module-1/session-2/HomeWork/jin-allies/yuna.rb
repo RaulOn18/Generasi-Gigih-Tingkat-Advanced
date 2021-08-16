@@ -1,3 +1,4 @@
-require_relative "../hero"
+require_relative '../hero'
 class Yuna < Hero
 end
+
